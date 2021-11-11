@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 0 > /proc/sys/fs/protected_symlinks
+
+/usr/bin/cat /tmp/printer | /usr/bin/mosquitto_pub -l -t vyper/klipper/serial
