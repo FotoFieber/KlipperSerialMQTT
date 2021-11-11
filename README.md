@@ -4,7 +4,7 @@ Publish Serial Messages to MQTT
 ... to shutdown printer from gcode (action commands)
 ... to integrate into node-red
 
-Written and teste under Mainsailos.
+Written and tested under Mainsailos.
 
 steps:
 - install node-red
