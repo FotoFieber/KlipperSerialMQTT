@@ -1,0 +1,13 @@
+[Unit]
+User=pi
+Description=Klipper 2 Mqtt Service
+
+[Service]
+ExecStart=/home/pi/scripts/klipper2mqtt
+StandardOutput=null
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+Alias=klipper2mqtt.service
